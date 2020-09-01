@@ -1,0 +1,25 @@
+[github]
+token = TOKEN-HERE
+debug=false
+
+[jordiprats]
+skip-forked-repos=true
+repo-pattern="ansible-"
+current-version=True
+truncate-pattern=True
+name-prefix=mya.
+
+[another_github_user]
+skip-forked-repos=true
+repo-pattern="ansible-"
+current-version=True
+truncate-pattern=True
+
+[yet_another_github_user]
+skip-forked-repos=true
+repo-pattern="ansible-"
+current-version=True
+truncate-pattern=False
+
+[systemadmin/systemadmin-demo]
+url = 'ssh://git@git.systemadmin.es:8080/systemadmin/systemadmin-demo.git'
